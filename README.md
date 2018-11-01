@@ -3,13 +3,13 @@
 https://github.com/Fullscreen/yt
 
 ```ruby
-channel = Yt::Channel.new id ''
+channel = Yt::Channel.new id 'XXXXXXXXX'
 channel.title
 channel.public?
 channel.comment_count
 channel.videos.count
 
-video = Yt::Video.new id: ''
+video = Yt::Video.new id: 'XXXXXXXXXXXX'
 video.title
 video.comment_count
 video.hd?
